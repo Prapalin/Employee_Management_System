@@ -4,7 +4,7 @@
 }
 
 body{
-  background-color: #111;
+  background-color: #242424;
 }
 
 input:-webkit-autofill,
@@ -13,4 +13,8 @@ input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
     -webkit-box-shadow: 0 0 0 30px black inset !important;
     -webkit-text-fill-color: white !important;
+}
+
+#tasklist::-webkit-scrollbar{
+  display: none;
 }
