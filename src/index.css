@@ -1,10 +1,10 @@
 @import "tailwindcss";
 *{
-  color: #fff;
+  /* color: #fff; */
 }
 
 body{
-  background-color: #242424;
+  background-color: #1c1c1c;
 }
 
 input:-webkit-autofill,
