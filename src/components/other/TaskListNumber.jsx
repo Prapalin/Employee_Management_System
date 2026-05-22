@@ -2,7 +2,7 @@ import React from 'react'
 
 const TaskListNumber = ({data}) => {
   return (
-    <div className='flex mt-10 screen justify-between gap-5'>
+    <div className='text-white flex mt-10 screen justify-between gap-5'>
       <div className='py-6 px-9 rounded-xl w-[45%]  bg-cyan-500'>
         <h2 className='text-2xl font-semibold'>{data.taskNumbers.newTask}</h2>
         <h3 className='text-xl font-medium'>New Task</h3>
